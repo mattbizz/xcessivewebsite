@@ -31,39 +31,21 @@
 			</nav>
 
 		<!-- Main -->
-		<div class="pricepic">
-		<img src="images/Packages_and_Pricing_.jpg" alt="pricing" class="pricing">
-		</div>
-				
-
-			<div class="inquiry">
-				<p>PRICING PLANS</p>
-				<form method="POST" name="contactform" action="contact-form-handler.php"> 
-					<p>
-					<label for='name'>Your Name:</label> <br>
-					<input type="text" name="name">
-					</p>
-					<p>
-					<label for='email'>Email Address:</label> <br>
-					<input type="text" name="email"> <br>
-					</p>
-					<p>
-					<label for='message'>Message:</label> <br>
-					<input type="text" name="Message"><br>
-					</p>
-					<input type="submit" value="Submit"><br>
-					</form>
-					
-					<script language="JavaScript">
-					// Code for validating the form
-					// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
-					// for details
-					var frmvalidator  = new Validator("contactform");
-					frmvalidator.addValidation("name","req","Please provide your name"); 
-					frmvalidator.addValidation("email","req","Please provide your email"); 
-					frmvalidator.addValidation("email","email","Please enter a valid email address"); 
-					</script>
-			</div>
+		<form name="contact" method="POST" data-netlify="true">
+			<p>
+			  <label>Your Name: <input type="text" name="name" /></label>   
+			</p>
+			<p>
+			  <label>Your Email: <input type="email" name="email" /></label>
+			</p>
+			<p>
+			  <label>Message: <textarea name="message"></textarea></label>
+			</p>
+			<p>
+			  <button type="submit">Send</button>
+			</p>
+		  </form>
+		  
 			
 		<!-- Footer -->
 		<footer id="footer">

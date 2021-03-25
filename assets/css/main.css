@@ -10,6 +10,8 @@
 
 /* Reset */
 
+
+
 #banner {
   max-width: 100%;
   background-image: img("images\banner.png");
@@ -48,6 +50,7 @@
 
 #formElements {
   display:grid;
+  margin-left: 20rem ;
 }
 
 #contact{
@@ -64,7 +67,7 @@
 
 fieldset{
   border: 3px solid #020873;
-  margin:auto;
+  margin: auto;
 }
 
 legend{
