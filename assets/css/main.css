@@ -4001,11 +4001,15 @@ body.subpage {
   }
 
   #banner br {
-    display: none;
+    display: -ms-flexbox;
+  
   }
+
+  
 
   #banner .button {
     width: 100%;
+
   }
 }
 
