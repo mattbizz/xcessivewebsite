@@ -12,6 +12,41 @@
 
 
 
+.gallery .gallery__img {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+  grid-column: auto;
+}
+.gallery__img {
+  width: 80%;
+  height: 80%;
+  object-fit: center;
+  align-items: center;
+  align-content: center;
+  margin: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+
+h6 {
+  text-align: center;
+  text-emphasis-style: bold;
+  size: 200%;
+}
+
+.Gallery_Top > p {
+  font-weight: bold;
+font-size: 600%;
+color: #00ACF9 ;
+margin-bottom: 5rem;
+}
+
+
 #banner {
   max-width: 100%;
   background-image: img("images\banner.png");
@@ -102,7 +137,6 @@ h2,
 h3,
 h4,
 h5,
-h6,
 p,
 blockquote,
 pre,
