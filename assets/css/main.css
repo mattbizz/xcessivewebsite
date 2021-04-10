@@ -2439,7 +2439,9 @@ button.special:active,
 /* Form */
 
 form {
-  margin: 0 0 2em 0;
+  width: 40%; 
+margin: 0 auto;
+	
 }
 
 label {
