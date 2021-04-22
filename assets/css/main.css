@@ -10,6 +10,9 @@
 
 /* Reset */
 
+marquee {
+  font-size: x-large;
+}
 
 .about {
   width: 80%;
