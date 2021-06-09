@@ -280,38 +280,6 @@ input, label, textarea {
 
 /* Gallery Page */
 
-.gallery_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    backdrop-filter: blur(15px);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-
-.webp .gallery_page {
-    background: url("../images/backgrounds/Website_Banner_bg.webp");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.no-webp .gallery_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.no-js .gallery_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
 .image-grow:hover {
     transform: scale(1.04);
 }
@@ -362,38 +330,4 @@ input, label, textarea {
 
 #styledList > a > li:first-child {
     border-top: 1px solid rgba(255,255,255,0.15)
-}
-
-/* Packages Page */
-
-#packages_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-
-.webp #packages_page {
-    background: url("../images/backgrounds/Website_Banner_bg.webp");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.no-webp #packages_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
-}
-
-.no-js #packages_page {
-    background: url("../images/backgrounds/Website_Banner_bg.png");
-    background-position: center;
-    backdrop-filter: blur(15px);
-    background-repeat: no-repeat;
-    background-size: cover; 
 }
