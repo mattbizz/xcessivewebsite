@@ -280,6 +280,34 @@ input, label, textarea {
 
 /* Gallery Page */
 
+#gallery-page {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.webp #gallery-page {
+    background: url("../images/backgrounds/website_banner_blurred.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.no-webp #gallery-page {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.no-js #gallery-pagedy {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
 .image-grow:hover {
     transform: scale(1.04);
 }
@@ -330,4 +358,33 @@ input, label, textarea {
 
 #styledList > a > li:first-child {
     border-top: 1px solid rgba(255,255,255,0.15)
+}
+/* Packages Page */
+
+#packages-page {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.webp #packages-page {
+    background: url("../images/backgrounds/website_banner_blurred.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.no-webp #packages-page {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.no-js #packages-page {
+    background: url("../images/backgrounds/website_banner_blurred.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
