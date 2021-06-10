@@ -48,16 +48,16 @@
                 </div>
                 <div class="divider" style="margin-bottom:1rem;"></div>
                 <div class="row center">
-                    <form action="#" class="col s12">
+                    <form action="mailing/mailer.php" method="POST" class="col s12">
                         <div class="row">
                             <div class="input-field col s12">
-                                <input type="text" id="fname" name="fname" placeholder="Name" class="validate">
-                                <label for="fname">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Name" class="validate" required>
+                                <label for="name">Name</label>
                             </div>
                         </div>
                         <div class="row">
                             <div class="input-field col s6">
-                                <input type="email" name="email" id="email" class="validate">
+                                <input type="email" name="email" id="email" class="validate" required>
                                 <label for="email">Email Address</label>
                             </div>
                             <div class="input-field col s6">
@@ -68,7 +68,7 @@
                         
                         <div class="row">
                             <div class="input-field col s12">
-                                <select id="queryType">
+                                <select id="queryType" name="queryType">
                                     <option value="0" id="0">Select an option</option>
                                     <option value="1" id="1">General Message</option>
                                     <option value="2" id="2">Package/Work Enquiry</option>
@@ -77,10 +77,10 @@
                                 <label>Nature of your message</label>
                             </div>
                         </div>
-                        <div class="row hide" id="packageEnq">
+                        <div class="row hide" id="packageEnq" >
                             <p>Curious as to what each of our packages include? <a href='packages.html' style="text-decoration: underline;">View them here</a></p>
                             <div class="input-field col s6">
-                                <select id="packageCategory">
+                                <select id="packageCategory" name="packageCat">
                                     <option value="0">Select an option</option>
                                     <option value="1" id="cat_01">Integrated Packages</option>
                                     <option value="2" id="cat_02">Photography Packages</option>
@@ -91,7 +91,7 @@
                                 <label>Package Category</label>
                             </div>
                             <div class="input-field col s6">
-                                <select id="specificPackage">
+                                <select id="specificPackage" name="specificPackage">
                                     <option disabled selected>Select a category first</option>
                                 </select>
                                 <label>Specific Package</label>
@@ -99,8 +99,14 @@
                         </div>
                         <div class="row hide" id="generalMessage">
                             <div class="input-field col s12">
-                                <textarea name="generalMessage" id="generalMessage" class="materialize-textarea"></textarea>
+                                <textarea name="generalMessage" id="generalMessage" class="materialize-textarea" required></textarea>
                                 <label>Your Message</label>
+                            </div>
+                            <div class="input-field col s12 center-align">
+                                <div class="g-recaptcha" data-sitekey="6LeeM6wUAAAAAGih6iQS5H95xVIc1SbZdL_Fdz8i"></div>
+                            </div>
+                            <div class="input-field col s12">
+                                <button class="btn waves-effect waves-light btn-large light-blue darken-4" type="submit" name="submitBtn" style="width:100%;">Submit</button>
                             </div>
                         </div>
                     </form>
@@ -159,6 +165,7 @@
         </div>
     </footer>
 </body>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/js/materialize.min.js"></script>
 <script src="assets/js/custom.js"></script>
