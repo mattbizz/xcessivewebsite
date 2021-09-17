@@ -388,3 +388,15 @@ input, label, textarea {
     background-repeat: no-repeat;
     background-size: cover; 
 }
+
+.fa-apple-music .fa-music:before {
+    content: '\266B';
+  }
+  .fa-apple-music .fa-music {
+    color: #eb1111;
+  }
+  .fa-apple-music-o .fa-music {
+    color: #000000ea;
+    font-size: 0.75rem;
+    line-height: 1.90rem;
+  }
