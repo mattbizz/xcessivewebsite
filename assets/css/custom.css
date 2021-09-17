@@ -391,6 +391,7 @@ input, label, textarea {
 
 .fa-apple-music .fa-music:before {
     content: '\266B';
+    color: #eb1111;
   }
   .fa-apple-music .fa-music {
     color: #eb1111;
