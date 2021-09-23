@@ -566,6 +566,12 @@ textarea {
   animation-name: fadein;
 }
 
+@keyframes fadein {
+  from {
+    margin-left: 1000px;
+  }
+}
+
 @-webkit-keyframes fadein {
   from {
     margin-left: 1000px;
@@ -603,6 +609,15 @@ textarea {
   animation-delay: 2s;
 }
 
+@keyframes slidein {
+  from {
+    margin-left: 800px;
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
 @-webkit-keyframes slidein {
   from {
     margin-left: 800px;
@@ -625,7 +640,14 @@ textarea {
   -o-animation-name: slideup;
   animation-name: slideup;
 }
-
+@keyframes slideup {
+  from {
+    margin-top: 30px;
+  }
+  to {
+    margin-top: 0;
+  }
+}
 @-webkit-keyframes slideup {
   from {
     margin-top: 30px;
