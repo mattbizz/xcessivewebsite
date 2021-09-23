@@ -401,3 +401,214 @@ input, label, textarea {
     font-size: 75rem;
     line-height: 1.90rem;
   }
+
+
+  .breaking-news-headline {
+    display: block;
+    position: absolute;
+    font-family: arial;
+    font-size: 18px;
+    margin-top: -33px;
+    color: white;
+    margin-left: 150px;
+  }
+  
+  .breaking-news-title {
+    background-color: #1797ff;
+    display: block;
+    height: 40px;
+    width: 100px;
+    font-family: arial;
+    font-size: 20px;
+    position: absolute;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-left: 12px;
+    z-index: 4;
+  }
+  .breaking-news-title:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0px;
+    height: 0px;
+    top: 0;
+    left: -11.5px;
+    border-left: 12px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 41px solid #1797ff;
+  }
+  .breaking-news-title:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    right: -10px;
+    top: 0;
+    border-right: 12px solid transparent;
+    border-left: 0px solid transparent;
+    border-top: 40px solid #1797ff;
+  }
+  
+  #breaking-news-colour {
+    height: 40px;
+    min-width: 100%;
+    max-width: 1920px;
+    overflow: hidden;
+    background-color: #041625;
+  }
+  
+  #breaking-news-container {
+    height: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+  #breaking-news-container:before {
+    content: "";
+    width: 30px;
+    height: 40px;
+    background-color: #041625;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .animated {
+    -webkit-animation-duration: 0.2s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 0.2s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+  }
+  
+  .delay-animated {
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+  }
+  
+  .scroll-animated {
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 3s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  .delay-animated2 {
+    -webkit-animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 0.4s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+  }
+  
+  .delay-animated3 {
+    -webkit-animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-duration: 4s;
+    -moz-animation-fill-mode: both;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 3s;
+  }
+  
+  .fadein {
+    -webkit-animation-name: fadein;
+    -moz-animation-name: fadein;
+    -o-animation-name: fadein;
+    animation-name: fadein;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {
+      margin-left: 1000px;
+    }
+  }
+  @-moz-keyframes fadein {
+    from {
+      margin-left: 1000px;
+    }
+  }
+  .slidein {
+    -webkit-animation-name: slidein;
+    -moz-animation-name: slidein;
+    -o-animation-name: slidein;
+    animation-name: slidein;
+  }
+  
+  @keyframes marquee {
+    0% {
+      left: 0;
+    }
+    20% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  .marquee {
+    animation: marquee 24s linear infinite;
+    -webkit-animation-duration: 24s;
+    -moz-animation-duration: 24s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 2s;
+  }
+  
+  @-webkit-keyframes slidein {
+    from {
+      margin-left: 800px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
+  @-moz-keyframes slidein {
+    from {
+      margin-left: 8000px;
+    }
+    to {
+      margin-top: 0px;
+    }
+  }
+  .slideup {
+    -webkit-animation-name: slideup;
+    -moz-animation-name: slideup;
+    -o-animation-name: slideup;
+    animation-name: slideup;
+  }
+  
+  @-webkit-keyframes slideup {
+    from {
+      margin-top: 30px;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
+  @-moz-keyframes slideup {
+    from {
+      margin-top: 30px;
+    }
+    to {
+      margin-top: 0;
+    }
+  }
