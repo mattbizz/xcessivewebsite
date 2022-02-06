@@ -3,6 +3,7 @@
 @font-face {
   font-family: HermesRegular;
   src: url(../font/Hermes-Regular.otf);
+  font-display: swap;
 }
 
 html {
