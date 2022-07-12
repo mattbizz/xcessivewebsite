@@ -7,7 +7,7 @@ var packages = { // 1=podcast; 2=photography; 3=videography;
         "Custom",
     ],
     3: [
-        "$250 Minimum + Prop Costs",
+        "$250 Minimum + Prop Costs + Gas Cost",
     ],
     
 }
