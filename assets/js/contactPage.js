@@ -1,13 +1,13 @@
 var packages = { // 1=podcast; 2=photography; 3=videography;
     1: [
-        "Tier 1 - $100",
+        "$100 Flat Fee",
        
     ],
     2: [
-        "Tier 1 - Custom",
+        "Custom",
     ],
     3: [
-        "Tier 1 - $250 Mininmum",
+        "$250 Minimum + Prop Costs",
     ],
     
 }
