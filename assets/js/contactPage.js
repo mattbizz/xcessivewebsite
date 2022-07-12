@@ -1,26 +1,15 @@
-var packages = { // 1=integrated; 2=photography; 3=videography; 4=social media, 5=podcast
+var packages = { // 1=podcast; 2=photography; 3=videography;
     1: [
-        "Tier 1 - $50",
-        "Tier 2 - $100",
-        "Tier 3 - $130",
+        "Tier 1 - $100",
        
     ],
     2: [
-        "Tier 1 - $35",
-        "Tier 2 - $88",
+        "Tier 1 - Custom",
     ],
     3: [
-        "Tier 1 - $35",
-        "Tier 2 - $110"
+        "Tier 1 - $250 Mininmum",
     ],
-    4: [
-        "Tier 1 - $20",
-        "Tier 2 - $50"
-    ],
-    5: [
-        "Tier 1 - $25",
-        "Tier 2 - $75"
-    ]
+    
 }
 
 $(document).ready(function(){
