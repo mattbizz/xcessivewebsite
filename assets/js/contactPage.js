@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     // Init the form select boxes
     $("select").formSelect();
-    $("select").formSelect();
+    
 
     //Watch for change on the query type select box
     $("#queryType").change(function() {
