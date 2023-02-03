@@ -65,7 +65,7 @@ if(!empty($_POST)) {
 
         if($mail->send()) {
             echo "mail successful";
-            // header("Location: success.html");
+            header("Location: success.html");
         } else {
             echo "Something wen't wrong with the contact process, if this error persists please reach out to us on social media.";
         }
