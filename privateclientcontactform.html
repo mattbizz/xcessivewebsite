@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="XCESSIVE is a media creation company that focuses on up & coming talent. Music videos, podcasts, interviews, and photography are our specialties.">
+        <meta name="keywords" content="XCESSIVE, XCESSIVETV, Videography, Video, Photography, Photos, Music Video, Music, New Jersey, America, XCESSIVE Podcast">
+        <meta property="og:title" content="XCESSIVE">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://xcessive.tv">
+        <meta property="og:image" content="https://xcessive.tv/assets/images/we_are_xcessive.png">
+        <meta property="og:description" content="XCESSIVE is a media creation company that focuses on up & coming talent. Music videos, podcasts, interviews, and photography are our specialties.">
+        <link rel="shortcut icon" href="assets/images/logos/icon.ico" type="image/x-icon">
+        <title>XCESSIVE</title>
+        <link rel="stylesheet" href="assets/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/custom.css">
+    </head>
+<body class='contact-page'>
+    <header>
+        <!-- Right slide out Navigation -->
+        <ul id="slide-out" class="sidenav">
+            <li><a href="/index">Home</a></li>
+            <li><a href="/gallery">Gallery</a></li>
+            <li><a href="/packages">Packages</a></li>
+            <li><a href="/tooxcessive">TooXcessive</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/about">About Us</a></li>
+        </ul>
+        
+        <!-- Main Navigation Bar (containing the brand logo, and the slide out button) -->
+        <div class="navbar-fixed">
+            <nav id="main-nav">
+                <div class="nav-wrapper" id="main-nav-wrapper">
+                    <a href="/index" class="brand-logo">xcessive</a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="fas fa-bars"></i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="section no-pad bot" id="contactFormArea">
+            <div class="container">
+                <div class="row center">
+                    <h1>Contact Us</h1>
+                </div>
+                <div class="divider" style="margin-bottom:1rem;"></div>
+                <div class="row center">
+                    <form action="mailing/mailer.php" method="POST" class="col s12">
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input type="text" id="name" name="name" placeholder="Name" class="validate" required>
+                                <label for="name">Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input type="email" name="email" id="email" class="validate" required>
+                                <label for="email">Email Address</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input type="text" name="phoneNum" id="phoneNum">
+                                <label>Phone Number</label>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <select id="queryType" name="queryType">
+                                    <option value="2" id="2">Service Selection</option>
+                                </select>
+                                <label>Nature of your message</label>
+                            </div>
+                        </div>
+                        <div class="row hide" id="packageEnq" >
+                            <p>Curious as to what each of our packages include? <a href='packages.html' style="text-decoration: underline;">View them here</a></p>
+                            <div class="input-field col s6">
+                                <select id="packageCategory" name="packageCat">
+                                    <option value="3" id="cat_03">Videography Packages</option>
+                                </select>
+                                <label>Package Category</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <select id="specificPackage" name="specificPackage">
+                                    <option disabled selected>Select a category first</option>
+                                </select>
+                                <label>Specific Package</label>
+                            </div>
+                        </div>
+                        <div class="row hide" id="generalMessage">
+                            <div class="input-field col s12">
+                                <textarea name="generalMessage" id="generalMessage" class="materialize-textarea" required></textarea>
+                                <label>Your Message</label>
+                            </div>
+                            <div class="input-field col s12 center-align">
+                                <div class="g-recaptcha" data-sitekey="6LcbYDYbAAAAAJivpLuVmpcI0TMx5WuMNWGT_rki"></div>
+                            </div>
+                            <div class="input-field col s12">
+                                <button class="btn waves-effect waves-light btn-large light-blue darken-4" type="submit" name="submitBtn" style="width:100%;">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row center-align">
+                <div class="col s12 m6">
+                    <h5 class=" bold">Associates</h5>
+                    <ul id="styledList">
+                        <a href="https://sadboysworldwide.com/" target="_blank"><li>SadBoys Worldwide</li></a>
+                        <a href="https://sadboysworldwide.com/collections/resume-to-prosper" target="_blank"><li>ResumeToProsper</li></a>
+                        <a href="https://sloppyvinyl.com/" target="_blank"><li>SloppyVinyl</li></a>
+                    </ul>
+                </div>
+                <div class="col s12 m6">
+                    <h5 class=" bold">XCESSIVE Members</h5>
+                    <ul id="styledList">
+                        <a href="https://instagram.com/matt_bizzz" target="_blank"><li>Matt Bizz</li></a>
+                        <a href="https://instagram.com/jpullara11" target="_blank"><li>John Pullara</li></a>
+                        <a href="https://xcessive.tech/images/yeet.jpg" target="_blank"><li>Aidan G</li></a>
+                        <a href="https://instagram.com/spencerpark_" target="_blank"><li>Spencer Park</li></a>
+                        
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="row center-align">
+                <div class="col s12 m12 l12">
+                    <div id="socialIcons">
+                        <a href="https://www.twitter.com/xcessivetv" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://open.spotify.com/show/5xklzcejmgvDxqicLznf4Z" target="_blank"><i class="fab fa-spotify fa-2x"></i></a>
+                        <a href="https://www.instagram.com/xcessivetv/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.snapchat.com/add/xcessivetv" target="_blank"><i class="fab fa-snapchat fa-2x"></i></a>
+                        <a href="https://soundcloud.com/xcessivetv" target="_blank"><i class="fab fa-soundcloud fa-2x"></i></a>
+                        <a href="https://www.youtube.com/channel/UC-3Bo00l9-Cn2T5BKLQisWQ/" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a href="https://music.amazon.com/podcasts/1b0ad0f3-72a9-486c-b8b2-ca1107c79efd/xcessive-podcast" target="_blank"><i class="fab fa-amazon fa-2x"></i></a>
+                        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zb3VuZGNsb3VkLmNvbS91c2Vycy9zb3VuZGNsb3VkOnVzZXJzOjg2MDAwNTAxMi9zb3VuZHMucnNz?sa=X&ved=0CAMQ4aUDahcKEwiI-cqVhofzAhUAAAAAHQAAAAAQAQ" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+                        <a href="https://podcasts.apple.com/us/podcast/xcessive-podcast/id1532241883" target="_blank"><i class="fa fa-podcast fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="col s12 m12 l12">
+                    &copy; XCESSIVE
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/materialize.min.js"></script>
+<script src="assets/js/custom.js"></script>
+<script src="assets/js/modernizr-custom.js"></script>
+</html>
