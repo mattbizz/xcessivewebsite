@@ -236,7 +236,7 @@ a {
 
 .webp #abousUsSection {
   background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
-    url("../images/backgrounds/website_banner_blurred.webp");
+   url("../images/backgrounds/website_banner_blurred.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
