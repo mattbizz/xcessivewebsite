@@ -18,7 +18,7 @@ if(!empty($_POST)) {
     $g_response_decoded = json_decode($response);
 
     // If the captcha was a success, then continue with the mailing, otherwise die.
-    if($g_response_decoded->success === true) {
+    //if($g_response_decoded->success === true) {
         $name = $_POST['name'];
         $email = $_POST['email'];
         $phone = $_POST['phoneNum'];
@@ -72,6 +72,6 @@ if(!empty($_POST)) {
     } else {
         die("Recaptcha failed");
     }
-} else {
-    die("not a valid submission");
-}
+//} else {
+    //die("not a valid submission");
+//}
