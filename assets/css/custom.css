@@ -227,32 +227,28 @@ a {
 /* About Us Page */
 
 #aboutUsSection {
-  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
-  url("../images/backgrounds/website_banner_blurred.png");
+  background: url("../images/backgrounds/website_banner_blurred.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .webp #abousUsSection {
-  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
-  url("../images/backgrounds/website_banner_blurred.webp");
+  background: url("../images/backgrounds/website_banner_blurred.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .no-webp #abousUsSection {
-  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
-  url("../images/backgrounds/website_banner_blurred.png");
+  background: url("../images/backgrounds/website_banner_blurred.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .no-js #abousUsSection {
-  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
-  url("../images/backgrounds/website_banner_blurred.png");
+  background: url("../images/backgrounds/website_banner_blurred.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
