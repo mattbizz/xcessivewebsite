@@ -28,6 +28,12 @@
 
 }
 
+
+h2 {
+  font-family: uni_sansheavy_caps;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
