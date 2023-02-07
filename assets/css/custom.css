@@ -13,6 +13,7 @@
        url('../font/uni_sans_heavy-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 
 }
 
@@ -25,6 +26,7 @@
        url('uni_sans_thin-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 
 }
 
