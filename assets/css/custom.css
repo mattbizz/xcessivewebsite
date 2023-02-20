@@ -730,3 +730,12 @@ left: 0;
 width: 100%;
 height: 100%
 }
+
+#videocard {
+  
+  transition: all 0.2s ease-in-out;
+}
+
+#videocard:hover {
+  transform: scale(1.03);
+}
