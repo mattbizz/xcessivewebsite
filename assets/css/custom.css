@@ -734,6 +734,10 @@ height: 100%
 #videocard {
   
   transition: all 0.2s ease-in-out;
+  width: 50%;
+  position: static;
+  margin-left: 26%;
+  margin-right: 50%;
 }
 
 #videocard:hover {
