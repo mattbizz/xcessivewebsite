@@ -68,8 +68,8 @@ a {
 /* Navigation */
 
 #main-nav {
-  background-color: #041625;
-  transition: background-color 0.5s ease-in-out;
+  background-color: rgba(0,0,0,0);
+  transition: background-color 0.1s ease-in;
   border-bottom: 0;
 }
 
@@ -191,7 +191,7 @@ a {
 }
 
 .no-webp #videosSection {
-  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(27, 27, 27, 0.3)),
+  background: linear-gradient(rgba(27, 27, 27, 0.3), rgba(207, 180, 180, 0.3)),
     url("../images/backgrounds/sectbg.png");
   background-position: center;
   background-repeat: no-repeat;
