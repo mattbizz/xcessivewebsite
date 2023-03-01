@@ -746,3 +746,7 @@ height: 100%
 }
 
 .bolded { font-weight: bold; }
+
+.border {
+  border-radius: 100px;
+}
